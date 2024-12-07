@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoio à Comunidade Surda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #091c44;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h2 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 2em;
+            min-height: 80vh;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5em;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 1em;
+        }
+
+        form input,
+        form textarea {
+            padding: 0.5em;
+            margin-top: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 1em;
+            margin-top: 1em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #toggle-reader {
+            margin: 1em auto;
+            padding: 1em;
+            background-color: #091c44;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            width: 200px;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        #toggle-reader.active {
+            background-color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Web Acessível</h2>
+        <nav>
+            <ul>
+                <li><a href="#comunidade">Comunidade</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#acesso">Acesso</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <button id="toggle-reader">Ativar Leitor de Texto</button>
+
+        <section id="comunidade">
+            <h2>Comunidade Surda: você sabe o que é?</h2>
+            <p>A surdez é uma condição que afeta milhões de pessoas em todo o mundo, com estimativas da Organização Mundial da Saúde (OMS) indicando que mais de 430 milhões de pessoas têm perda auditiva incapacitante. Esse número pode crescer para 700 milhões até 2050. No Brasil, mais de 10 milhões de pessoas têm algum grau de deficiência auditiva, e cerca de 2,7 milhões delas possuem deficiência auditiva severa. A surdez pode ser congênita ou adquirida. A surdez congênita ocorre no nascimento ou logo após, frequentemente causada por fatores genéticos, infecções maternas durante a gravidez (como rubéola), complicações no parto, ou exposição a certos medicamentos. Já a surdez adquirida pode ocorrer em qualquer idade devido a fatores como infecções no ouvido, exposição prolongada a ruídos altos, envelhecimento (conhecido como presbiacusia), doenças crônicas como diabetes, uso de medicamentos ototóxicos e traumas na cabeça. Entre os adultos, a perda auditiva relacionada à idade é a causa mais comum de surdez.</p>
+            <img src="https://drive.google.com/uc?id=1_HPUQoH8N2KI1Eiv715-SEbI1EiZGITv" alt="Imagem representativa"" 
+
+        <section id="recursos">
+            <h2>Recursos</h2>
+            <p>Como parte do nosso compromisso em apoiar a comunidade surda, oferecemos uma gama de recursos projetados para promover a inclusão e a acessibilidade. Em primeiro lugar, disponibilizamos tecnologias como aplicativos que traduzem automaticamente textos para Língua de Sinais e serviços de legendagem em tempo real para vídeos, tornando o conteúdo mais acessível. Para apoiar a educação bilíngue, oferecemos materiais didáticos que combinam Língua de Sinais e português, promovendo o desenvolvimento completo das habilidades linguísticas. Também nos dedicamos a realizar campanhas de sensibilização e treinamentos para promover a inclusão e reduzir estigmas associados à comunidade surda.</p>
+            <img src="https://www.handtalk.me/br/wp-content/uploads/sites/8/2022/10/162-capa-blog-post-tecnologia_surdos_2022.png"
+                alt="Imagem sobre tecnologia para surdos">
+        </section>
+
+        <section id="acesso">
+            <h2>Acesso a recursos e acessibilidade</h2>
+            <p>Confira algumas plataformas que promovem a inclusão e acessibilidade:</p>
+            <ul>
+                <li><a href="https://mooc.cefor.ifes.edu.br/v/">Instituto Federal do Espírito Santo</a></li>
+                <li><a href="https://www.ev.org.br/#cursos">Fundação Bradesco - Escola Virtual</a></li>
+                <li><a href="https://moodle.ifrs.edu.br/course/index.php?categoryid=38">Instituto Federal do Rio Grande do Sul</a></li>
+                <li><a href="https://mundi.ifsul.edu.br/cursos/">Instituto Federal Sul-Rio-Grandense</a></li>
+                <li><a href="https://eskadauema.com/theme/olm/catalog.php">Universidade do Estado do Maranhão</a></li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Script para o leitor de texto -->
+    <script>
+        let readerActive = false;
+        const utterance = new SpeechSynthesisUtterance();
+
+        function readContent(content) {
+            utterance.text = content;
+            window.speechSynthesis.speak(utterance);
+        }
+
+        document.getElementById("toggle-reader").addEventListener("click", function () {
+            readerActive = !readerActive;
+            this.textContent = readerActive ? "Desativar Leitor de Texto" : "Ativar Leitor de Texto";
+            this.classList.toggle("active");
+
+            if (!readerActive) {
+                window.speechSynthesis.cancel();
+            }
+        });
+
+        document.querySelectorAll("h2, p, label").forEach(element => {
+            element.addEventListener("click", function () {
+                if (readerActive) {
+                    readContent(this.innerText);
+                }
+            });
+        });
+    </script>
+
+    <!-- Widget de Libras (Hand Talk) -->
+    <script>
+        (function () {
+            var ht = document.createElement("script");
+            ht.type = "text/javascript";
+            ht.async = true;
+            ht.src = "https://static.handtalk.me/plugin/latest/handtalk.min.js";
+            ht.onload = function () {
+                new window.HandTalk("YOUR_ACCESS_KEY");
+            };
+            document.getElementsByTagName("head")[0].appendChild(ht);
+        })();
+    </script>
+</body>
+
+</html>
